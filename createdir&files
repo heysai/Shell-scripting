@@ -19,3 +19,16 @@ ls
 
 #./test.sh Demo 2
 #it will create a dir called Demo and inside that it will create files.if the dir already exists it wont create dir
+EBS and Linux	"Write the shell script that 
+
+1) Create new directory and 
+2) Add three files within created directory 
+3) rename all files in the current directory that end in “.txt” to end
+with today’s date in the following format: YYYY-MM-DD. 
+4) display all filenames within directory as output
+
+Execute bash file and remove created directory and files outside
+
+For example, if i have 3 files (one file name is test_1.txt) in the current directory and
+ today is May 26,2022 it would change name from 
+“test.txt” to “test_1_2022–05–26.txt”."
