@@ -1,0 +1,11 @@
+arr=( "linux is devops" "linux linux" "linux is open" )
+
+for((i=0;i<$1;i++))
+do
+        echo "${arr[$i]}" > testing_$i.txt
+        sed -i 's/linux/devops/gi' testing_$i.txt
+        echo "name of the file is: testing_$i.txt"
+        cat testing_$i.txt
+        grep devops -io testing_$i.txt | wc -l
+done
+
