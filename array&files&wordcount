@@ -9,3 +9,16 @@ do
         grep devops -io testing_$i.txt | wc -l
 done
 
+
+execution $ ./test.sh 3
+
+output:
+name of the file is: testing_0.txt
+devops is devops
+2
+name of the file is: testing_1.txt
+devops devops
+2
+name of the file is: testing_2.txt
+devops is open
+1
