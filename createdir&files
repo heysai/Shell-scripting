@@ -1,6 +1,8 @@
 if [ -d "$1" ]
 
-    then cd $1
+
+then
+     cd $1
 else
         mkdir $1
 
@@ -12,6 +14,8 @@ do
 done
 
 ls
+
+
 
 #./test.sh Demo 2
 #it will create a dir called Demo and inside that it will create files.if the dir already exists it wont create dir
